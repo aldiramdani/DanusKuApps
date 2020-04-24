@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.aikvanda.danuskuapps.pemasukan"
+        android:orientation="vertical"
+        android:background="#fcfcfc"
+        android:gravity="center"
+        android:id="@+id/halpemasukan">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFA000">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingLeft="8dp"
+                android:paddingRight="80dp"
+                android:paddingTop="8dp"
+                android:text="Pemasukan"
+                android:textColorHint="@color/hintFont"
+                android:textSize="42sp"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:id="@+id/hapuspemasukan1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_delete"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ededed">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Tanggal : "
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/tampilTglMasuk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="date"
+                        android:hint="Hh - Bb - Tt"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20sp"/>
+
+                    <ImageButton
+
+                        android:id="@+id/setTglMasuk"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/calender"
+                        android:clickable="true"
+
+                        >
+
+                    </ImageButton>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp."
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="Jumlah Pemasukan"
+                        android:layout_marginRight="80dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/pemasukan"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Catatan : "
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/editNoteMasuk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:ems="1000"
+                    android:inputType="textMultiLine" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <Button
+                        android:id="@+id/save"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="8dp"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:text="Simpan"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

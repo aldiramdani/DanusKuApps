@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f6f7">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="130dp">
+    <ImageView
+        android:id="@+id/imgNota"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_insert_drive_file_black_24dp"
+        android:padding="1dp"
+        android:layout_alignParentLeft="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="left">
+        <TextView
+            android:id="@+id/tanggalnota"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="tanggal"
+            android:padding="2dp"
+            android:textColor="#c8000000"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/jumlahNota"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:text="jumlah"
+            android:textColor="#c8000000"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/keterangan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="Keterangan"
+            android:textColor="#c8000000"
+            android:padding="2dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

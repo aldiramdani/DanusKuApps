@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aikvanda.danuskuapps.ProfileAccount">
+
+    <!-- TODO: Update blank fragment layout -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ededed"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Organisasi"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="8dp" />
+                <EditText
+                    android:id="@+id/editorganisasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HIMADIF"
+                    android:hint="Masukkan Organisasi"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Acara"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="8dp" />
+                <EditText
+                    android:id="@+id/editacara"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dies Natalis HIMADIF"
+                    android:hint="Masukkan Nama Acara"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Target Dana"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp."
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"/>
+                    <EditText
+                        android:id="@+id/editTargetDana"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Masukkan Target Dana"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="4dp"
+                        android:inputType="number"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:text="Update"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

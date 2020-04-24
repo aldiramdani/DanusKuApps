@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.aikvanda.danuskuapps.pemasukan"
+        android:orientation="vertical"
+        android:background="#ededed"
+        android:gravity="center"
+        android:id="@+id/halpemasukan">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Data Panitia "
+            android:textColor="#c8000000"
+            android:textStyle="bold"
+            android:textSize="42sp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:background="#FFA000"
+            android:paddingBottom="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ededed">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama"
+                    android:textSize="20sp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColorHint="@color/hintFont"
+                    android:id="@+id/nama"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Kelas"
+                    android:textSize="20sp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="4dp"
+                    android:textColorHint="@color/hintFont"
+                    android:id="@+id/listKelas"/>
+
+
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listHari"
+                    android:textSize="20sp"
+                    android:hint="Hari"
+                    android:layout_marginRight="140dp"
+                    android:layout_marginLeft="8dp"/>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listDivisi"
+                    android:textSize="20sp"
+                    android:hint="Divisi"
+                    android:layout_marginRight="140dp"
+                    android:layout_marginLeft="8dp"/>
+
+                    <Button
+                        android:id="@+id/simpan"
+                        android:layout_width="130dp"
+                        android:layout_height="50dp"
+                        android:text="Simpan"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:layout_marginRight="8dp"
+                        android:clickable="true"
+                        android:layout_gravity="center_horizontal" />
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

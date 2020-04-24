@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DanusKu</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="data">Data</string>
+    <string name="pemasukan">Pemasukan</string>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="jadwal">Jadwal</string>
+    <string name="nota">Nota</string>
+    <string name="laporan">Laporan</string>
+    <string name="keluar">Keluar</string>
+    <string name="menu">Menu</string>
+    <string name="inputDana">Input Dana</string>
+    <string name="profile">Profile</string>
+    <string name="senin">Senin</string>
+    <string name="selasa">Selasa</string>
+    <string name="rabu">Rabu</string>
+    <string name="kamis">Kamis</string>
+    <string name="jumat">Jumat</string>
+    <string name="sabtu">Sabtu</string>
+    <string name="minggu">Minggu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

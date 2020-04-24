@@ -1,0 +1,35 @@
+package com.example.praktikan.a4022_yudhistiracaraka;
+
+import android.app.DatePickerDialog;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.DatePicker;
+import android.widget.EditText;
+
+import java.util.Calendar;
+
+public class Test extends AppCompatActivity {
+    EditText ye;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_test);
+
+        final Calendar c = Calendar.getInstance();
+
+        ye = (EditText)findViewById(R.id.tanggal);
+        ye.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                DatePickerDialog ok = new DatePickerDialog(Test.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
+                        ye.setText(i+"/"+(i1+1)+"/"+i2);
+                    }
+                },c.get(Calendar.YEAR),c.get(Calendar.MONTH),c.get(Calendar.DAY_OF_MONTH));
+                ok.show();
+            }
+        });
+    }
+}

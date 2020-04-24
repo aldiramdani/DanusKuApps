@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data">Data</string>
+    <string name="pemasukan">Pemasukan</string>
+    <string name="pengeluaran">Pengeluaran</string>
+    <string name="jadwal">Jadwal</string>
+    <string name="nota">Nota</string>
+    <string name="laporan">Laporan</string>
+    <string name="keluar">Keluar</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>
