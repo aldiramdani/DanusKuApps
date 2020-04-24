@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DanusKuApps.iml" filepath="$PROJECT_DIR$/DanusKuApps.iml" group="DanusKuApps" />
+      <module fileurl="file://$PROJECT_DIR$/DanusKuAppsNew.iml" filepath="$PROJECT_DIR$/DanusKuAppsNew.iml" group="DanusKuAppsNew" />
+      <module fileurl="file://$PROJECT_DIR$/app/DanusKuAppsNew-app.iml" filepath="$PROJECT_DIR$/app/DanusKuAppsNew-app.iml" group="DanusKuAppsNew/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="DanusKuApps/app" />
     </modules>
   </component>

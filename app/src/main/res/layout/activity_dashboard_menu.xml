@@ -14,7 +14,7 @@
     <!-- berubung kan ada 2 layout yang make DashboardMenu jadi tiap layout wajib ada tools:context -->
 
         <!-- TODO: Update blank fragment layout -->
-        <android.support.design.widget.TabLayout
+        <com.google.android.material.tabs.TabLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/TabLayout"
@@ -22,12 +22,12 @@
             android:minHeight="?attr/actionBarSize"
             />
 
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:layout_width="match_parent"
             android:layout_height="fill_parent"
             android:id="@+id/content">
 
-        </android.support.v4.view.ViewPager>
+        </androidx.viewpager.widget.ViewPager>
     </LinearLayout>
 
 

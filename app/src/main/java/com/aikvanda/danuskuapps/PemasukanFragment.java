@@ -6,17 +6,16 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.app.Fragment;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.fragment.app.Fragment;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
 import android.database.Cursor;
-import android.support.v7.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -26,7 +25,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -34,9 +32,9 @@ import java.util.Locale;
 
 import android.net.Uri;
 import android.widget.ListView;
-import android.support.v4.app.LoaderManager;
-import android.support.v4.content.CursorLoader;
-import android.support.v4.content.Loader;
+import androidx.loader.app.LoaderManager;
+import androidx.loader.content.CursorLoader;
+import androidx.loader.content.Loader;
 
 import com.aikvanda.danuskuapps.Database.DatabaseHelper;
 
